@@ -129,6 +129,7 @@ public class ConnectControl {
         if ( game.getBoard().hasWon( currentSymbol ) ) {
         
             gameOver();
+	    whoseTurn++;
         
         } else if ( row == 0 ) { 
         
